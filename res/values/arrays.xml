@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 设置主界面信息 -->
+    <string-array name="setting_templates">
+        <item>@string/settings_item_wifi</item>
+        <item>@string/settings_item_network</item>
+        <item>@string/settings_item_dual_card_management</item>
+        <item>@string/settings_item_bt</item>
+        <item>@string/settings_item_location</item>
+        <!-- <item>@string/settings_item_sos</item>
+        <item>@string/settings_item_battery</item> -->
+        <item>@string/settings_item_display</item>
+        <!-- item>@string/settings_item_sound</item -->
+        <item>@string/settings_item_profile</item>
+        <item>@string/settings_item_date</item>
+        <!-- <item>@string/settings_item_voice</item> -->
+        <item>@string/settings_item_mobile</item>
+    </string-array>
+    
+    <!-- 网络设置 -->
+    <string-array name="setting_network">
+        <item>@string/airplane_mode</item>
+        <item>@string/data_connection</item>
+    </string-array>
+    
+    <!-- sim设置 -->
+    <string-array name="setting_sim">
+        <item>@string/sim_setting</item>
+        <item>@string/operation_options_setting</item>
+    </string-array>
+    
+    <!-- SOS设置 -->
+    <string-array name="setting_sos">
+        <item>@string/sos_help</item>
+        <item>@string/sos_setting</item>
+    </string-array>
+    
+    <!-- 电池设置 -->
+    <string-array name="setting_battery">
+        <item>@string/battery_powersaving</item>
+        <item>@string/battery_number</item>
+    </string-array>
+    
+    <!-- 显示设置 -->
+    <string-array name="setting_display">
+        <item>@string/display_brightness</item>
+        <item>@string/sleep_time</item>
+    </string-array>
+    
+    <!-- 开关设置 -->
+    <string-array name="setting_openoff">
+        <item>@string/open</item>
+        <item>@string/off</item>
+    </string-array>
+    
+    <!-- 休眠时间设置 -->
+    <string-array name="setting_sleeptime">
+        <item>@string/sleep_time_5s</item>
+        <item>@string/sleep_time_10s</item>
+        <item>@string/sleep_time_15s</item>
+        <item>@string/sleep_time_1m</item>
+        <item>@string/sleep_time_5m</item>
+        <item>@string/sleep_time_30m</item>
+    </string-array>
+    
+    <!-- 声音设置 -->
+    <string-array name="setting_sound">
+        <item>@string/volume</item>
+        <item>@string/ring</item>
+    </string-array>
+    
+    <!-- 日期与时间设置 -->
+    <string-array name="setting_date">
+        <item>@string/settings_auto_time</item>
+        <item>@string/settings_date</item>
+        <item>@string/settings_time</item>
+        <item>@string/settings_hours_format</item>
+    </string-array>
+    
+    <!-- 语音设置 -->
+    <string-array name="setting_voice">
+        <item>@string/voice_call</item>
+        <item>@string/voice_time</item>
+        <item>@string/voice_keys</item>
+    </string-array>
+    
+    <!-- 其他设置 -->
+    <string-array name="setting_other">
+        <item>@string/mobile_item_language</item>
+        <!-- <item>@string/mobile_item_function_key</item> -->
+        <item>@string/mobile_item_reset</item>
+    </string-array>
+    
+    <!-- 语言设置 -->
+    <string-array name="setting_language">
+        <item>@string/english</item>
+        <item>@string/simplified_chinese</item>
+    </string-array>
+    
+    <!-- 功能鍵设置 -->
+    <string-array name="setting_functionkey">
+        <item>@string/key_up</item>
+        <item>@string/key_down</item>
+        <item>@string/key_left</item>
+        <item>@string/key_right</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="265dp"
+        android:background="@drawable/dialog_bg" >
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/mobile_item_function_key"
+            android:textSize="@dimen/text_size_30" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/title_tv"
+            android:background="#cccccc" />
+
+        <ListView
+            android:id="@+id/functionkey_dialog_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_below="@id/line"
+            android:clipToPadding="false"
+            android:fadingEdge="none"
+            android:focusable="true"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/functionkey_dialog_listview"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/dialog_button_bg_selector"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textSize="@dimen/text_size_20" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/functionkey_dialog_listview"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:layout_toRightOf="@id/confirm_btn"
+            android:background="@drawable/dialog_button_bg_selector"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="@dimen/text_size_20" />
+    </RelativeLayout>
+
+</LinearLayout>

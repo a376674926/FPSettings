@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.stj.settings"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.stj.settings.activity.SettingsMainActivity"
+            android:label="@string/settings_menumain_title"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.NetworkSettingActivity"
+            android:label="@string/settings_item_network"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.DualCardManageActivity"
+            android:label="@string/settings_item_dual_card_management"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.SOSSettingActivity"
+            android:label="@string/settings_item_sos"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.BatterySettingActivity"
+            android:label="@string/settings_item_battery"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.DisplaySettingActivity"
+            android:label="@string/settings_item_display"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.SoundSettingActivity"
+            android:label="@string/settings_item_sound"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.DateTimeSettingActivity"
+            android:label="@string/settings_item_date"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.VoiceSettingActivity"
+            android:label="@string/settings_item_voice"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.OtherSettingActivity"
+            android:label="@string/settings_item_mobile"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.OpenOffSettingActivity"
+            android:label="@string/sos_setting" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.BrightnessVolumeSettingActivity"
+            android:label="@string/display_brightness" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.SleepTimeSettingActivity"
+            android:label="@string/sleep_time" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.RingSettingActivity"
+            android:label="@string/ring" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.DateSettingActivity"
+            android:label="@string/settings_date" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.TimeSettingActivity"
+            android:label="@string/settings_time" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.LanguageSettingActivity"
+            android:label="@string/mobile_item_language" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.ResetActivity"
+            android:label="@string/mobile_item_reset" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.FunctionKeySettingActivity"
+            android:label="@string/mobile_item_function_key" >
+        </activity>
+        <!-- add begin by hhj@20160712 for dual card management -->
+        <activity
+            android:name="cn.stj.settings.activity.SimSettingActivity"
+            android:label="@string/sim_setting" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.SimOperationOptionSettingActivity"
+            android:label="@string/operation_options_setting" >
+        </activity>
+        <activity
+            android:name="cn.stj.settings.activity.SimDialogActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/sim_settings_title"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

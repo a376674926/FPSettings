@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/sim_cellular_data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/setting_item_bg" >
+
+        <TextView
+            android:id="@+id/sim_cellular_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/sim_cellular_data"
+            android:textColor="@drawable/setting_simoption_textcolor_selector"
+            android:textSize="30sp" 
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sim_cellular_data_carrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/sim_light_gray"
+            android:textSize="30sp" 
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/sim_line2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DEDEDE" />
+
+    <RelativeLayout
+        android:id="@+id/sim_phone_call_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_item_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/sim_phonecall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/sim_phonecall"
+            android:textColor="@drawable/setting_simoption_textcolor_selector"
+            android:textSize="30sp" 
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sim_phonecall_carrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/sim_light_gray"
+            android:textSize="30sp" 
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/sim_line3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DEDEDE" />
+
+    <RelativeLayout
+        android:id="@+id/sim_sms_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_item_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/sim_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/sim_sms"
+            android:textColor="@drawable/setting_simoption_textcolor_selector"
+            android:textSize="30sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/sim_sms_carrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/sim_light_gray"
+            android:textSize="30sp"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/sim_line4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DEDEDE" />
+
+</LinearLayout>

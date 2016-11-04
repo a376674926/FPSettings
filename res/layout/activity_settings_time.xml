@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2.0"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/time_settings_lable_marginTop" >
+
+        <TextView
+            style="@style/Settings_Date_Lable_Style"
+            android:layout_weight="1.0"
+            android:text="@string/hour" 
+            android:gravity="center"/>
+
+        <TextView
+            style="@style/Settings_Date_Lable_Style"
+            android:layout_weight="1.0"
+            android:text="@string/miniter"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/time_settings_lable_marginTop"
+        android:background="#ffe0e0e0"
+        android:orientation="horizontal"
+        android:weightSum="2.0" >
+
+        <EditText
+            android:id="@+id/setting_time_edit_hour"
+            style="@style/Settings_Date_Edittext_Style"
+            android:maxLength="2"
+            android:phoneNumber="true" />
+
+        <EditText
+            android:id="@+id/setting_time_edit_min"
+            style="@style/Settings_Date_Edittext_Style"
+            android:maxLength="2"
+            android:phoneNumber="true" />
+    </LinearLayout>
+
+</LinearLayout>

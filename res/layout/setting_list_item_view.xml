@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_item_bg"
+    android:orientation="vertical" >
+
+
+     <RelativeLayout
+         android:id="@+id/item_pre_layout"
+         android:layout_width="wrap_content"
+         android:layout_height="fill_parent"
+         android:layout_alignParentLeft="true" >
+
+         <TextView
+             android:id="@+id/setting_list_item_tv_index"
+             style="@style/setting_item_index_style" />
+
+         <TextView
+             android:id="@+id/setting_list_item_tv_text"
+             style="@style/setting_item_text_style"
+             android:layout_toRightOf="@id/setting_list_item_tv_index"
+             android:ellipsize="marquee"
+             android:marqueeRepeatLimit="marquee_forever"
+             android:scrollHorizontally="true" />
+     </RelativeLayout>
+
+</RelativeLayout>

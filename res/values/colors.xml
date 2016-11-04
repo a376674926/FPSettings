@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normalFgColor">#ff333333</color>
+    <color name="time_edit_bg_hi">#2386BE</color>
+    <color name="transparent">#00000000</color>
+    <color name="dialog_bg">#EEE9E9</color>
+    <color name="light_gray">#EAEAEA</color>
+    <color name="light_gray_1">#DDDDDD</color>
+    <color name="sim_light_gray">#757575</color>
+</resources>
